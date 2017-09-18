@@ -1,4 +1,5 @@
 #create a docker image from the DMTF RedFish Interface Emulator
+#
 FROM python:2-alpine
 RUN apk update
 RUN apk add git
